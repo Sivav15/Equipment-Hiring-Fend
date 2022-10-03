@@ -36,8 +36,6 @@ const search = ()=>{
   let value = data.filter((item)=> item.type.toLowerCase().includes(query));
          setFil(value)
 }
-
-console.log(query);
   return (
     <>
       <Slider />
